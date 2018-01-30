@@ -1,12 +1,16 @@
 # Masonry Contao component
 
-Shim repository for [Masonry]() as [Contao Component]().
+Shim repository for [Masonry](https://github.com/desandro/masonry) as [Contao Component](https://github.com/contao-components/installer).
 
 ## Install
 
-## Internal
+```
+composer require heimrichhannot-contao-components/masonry
+```
 
-### Update Library
+## Internal
+ 
+Update Library:
 
 ```
 svn export https://github.com/desandro/masonry.git/trunk/dist
