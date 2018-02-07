@@ -5,11 +5,29 @@
 
 Shim repository for [Masonry](https://github.com/desandro/masonry) as [Contao Component](https://github.com/contao-components/installer).
 
+
 ## Install
 
 ```
 composer require heimrichhannot-contao-components/masonry
 ```
+
+
+## Config
+
+Add the following to your config (keep keys to prevent double integration):
+
+### Contao 4
+
+```
+$GLOBALS['TL_JAVASCRIPT']['huh_components_masonry'] = 'assets/masonry/masonry.pkgd.min.js|static';
+```
+
+### Contao 3
+```
+$GLOBALS['TL_JAVASCRIPT']['huh_components_masonry'] = 'assets/components/masonry/masonry.pkgd.min.js|static';
+```
+
 
 ## Internal
  

@@ -3,6 +3,13 @@
   "description": "A shim repositoy for masonry as contao component.",
   "type": "contao-component",
   "license": "MIT",
+  "keywords": [
+    "contao",
+    "contao-component",
+    "masonry",
+    "shim",
+    "javascript"
+  ],
   "authors": [
     {
       "name": "Heimrich & Hannot",
