@@ -20,12 +20,13 @@ Add the following to your config (keep keys to prevent double integration):
 ### Contao 4
 
 ```
-$GLOBALS['TL_JAVASCRIPT']['huh_components_masonry'] = 'assets/masonry/masonry.pkgd.min.js|static';
+$GLOBALS['TL_JAVASCRIPT']['huh_components_masonry'] = 'assets/masonry/dist/masonry.pkgd.min.js|static';
 ```
 
 ### Contao 3
+
 ```
-$GLOBALS['TL_JAVASCRIPT']['huh_components_masonry'] = 'assets/components/masonry/masonry.pkgd.min.js|static';
+$GLOBALS['TL_JAVASCRIPT']['huh_components_masonry'] = 'assets/components/masonry/dist/masonry.pkgd.min.js|static';
 ```
 
 
